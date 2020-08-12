@@ -48,7 +48,6 @@ editSubmit.addEventListener('click', (e) => {
     name,
     url
   }).then((resp) => {
-    console.log(resp)
     addPictures(resp.data)
     $('#modal-edit').modal('close')
   })
