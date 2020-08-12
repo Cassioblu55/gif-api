@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 mongoose.Promise = Promise;
 
 // set the uri for connecting to our local mongodb
-const mongoURI = 'mongodb://localhost/gif';
+const mongoURI = 'mongodb:MONGODB';
 
 // connect to the database, with the imported mongoose instance
 mongoose
